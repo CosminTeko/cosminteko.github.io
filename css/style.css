@@ -1,0 +1,73 @@
+html, body{
+	height: 100%;
+	background-image: url("../img/bg1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	padding-top:15%;
+}
+
+.center{
+	text-align: center;
+}
+
+.white{
+	color: white;
+}
+
+p{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+button{
+	margin-top: 10px;
+}
+
+#success{
+	margin-top: 20px;
+	display: none;
+}
+
+#fail{
+	margin-top: 20px;
+	display: none;
+}
+
+.row{
+	-moz-animation-delay:1s;
+	-webkit-animation-delay:1s;
+}
+
+
+.footer{
+	background: transparent;
+	position: fixed;
+	bottom: 8px;
+	right: 0;
+	left: 0;
+	min-height: 63px;
+	margin: 0 auto;
+	z-index: 10000;
+	padding-left: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateZ(0);
+	-webkit-transition: position .5s ease;
+	-moz-transition: position .5s ease;
+	-ms-transition: position .5s ease;
+	-o-transition: position .5s ease;
+	transition: position .5s ease;
+	text-align: center
+}
+
+.footer p{
+	text-align: center;
+	color: white;
+	-moz-animation-delay:1s;
+	-webkit-animation-delay:1s;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="description" content="Wheather application">
+	<meta name="author" content="Cosmin Grigoruta">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
+		<div class="container">
+			<div class="row animated fadeIn">
+				<div class="col-md-6 col-md-offset-3 center">
+					<h1 class="white center">Weather Predictor</h1>
+					<p class=" white center">Enter your city below to get a forecast weather.</p>
+					<form>
+						<div class="form-group"> 
+							<input type="text" class="form-control" name="city" id="city" placeholder="Eg. London, Paris, Bucharest...">
+						</div>
+
+						<button id="findMyWeather" class="btn btn-success btn-lg">Find My Weather</button>
+
+					</form>
+					<div class="alert alert-success customtxt" id="success">
+					</div>
+					<div class="alert alert-danger" id="fail">
+						Could not find that city. Try again! :(
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+
+		<footer class="footer">
+			<p class="animated fadeIn">&copy;Powered by Grigoruta Cosmin</p>
+		</footer>
+
+	<!-- JS -->
+	<script
+  		src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	 	crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
